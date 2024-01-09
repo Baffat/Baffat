@@ -12,7 +12,7 @@ header{
   }
   .logo{
     height: 100px;
-    padding: 0 20px;
+    padding: 20px;
     box-sizing: border-box;
     float: left;
   }
@@ -86,20 +86,21 @@ header{
   }
   }
 
-.container{
+ /*.container {
     margin: 0 auto;
     width: 80%;
     padding: 10px;
     box-shadow: 0px 0px 10px 5px #0fa685;
-    height: 400%;
-}
+    height: 100%;*/
+ 
+
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 10px;
 }
 
 h1{
-    color:rgb(255, 0, 0);
+    color:rgb(0, 89, 255);
     font-size: 1.8rem;
     text-transform: uppercase;
     text-align: center;
@@ -124,19 +125,22 @@ section{
     float: left;
     margin: 0 auto;
     padding: 2px 25px;
-
+  
 }
 #under{
     text-align: center;
     max-width: 140px;
     color: #036103;
 }
+
 p{
     text-align: center;
 }
 #fat{
-  width: 20%;
-  margin-left: 40%;
+  width: 50px;
+  margin: 1.66%;
+  height: 50px;
+  float: left;
 }
 #ikhlasee{
   text-align: justify;
@@ -151,3 +155,19 @@ img {
 width: 200px;
 height: 200px;
 }
+
+.column {
+  width: 20%;
+  float:left;
+  margin: 1.66%;
+  height: 400px;
+}
+h2{
+color: brown;
+text-align: center;
+text-decoration-line: underline;
+}
+
+h6{
+  text-align: center;
+} 
